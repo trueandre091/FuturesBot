@@ -4,3 +4,4 @@
 *.png
 const.txt
 *.session
+*.session-journal
