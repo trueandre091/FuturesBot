@@ -3,3 +3,4 @@
 /fun/__pycache__
 *.png
 const.txt
+*.session
