@@ -9,10 +9,10 @@ from fun.extra import get_chat_title
 from fun.stats import periodic_task, GRAPH_DIR
 
 with open("const.txt") as file:
-    api_id = file.readline()
-    api_hash = file.readline()
-    phone_number = file.readline()
-    recipient_username = file.readline()
+    api_id = file.readline().split()[1]
+    api_hash = file.readline().split()[1]
+    phone_number = file.readline().split()[1]
+    recipient_username = file.readline().split()[1]
 
 conn = sqlite3.connect('messages.db')
 cursor = conn.cursor()
