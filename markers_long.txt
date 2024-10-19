@@ -38,3 +38,5 @@ perfect
 perfectly
 go parabolic
 move
+break out
+bullish
