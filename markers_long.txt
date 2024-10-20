@@ -40,3 +40,7 @@ go parabolic
 move
 break out
 bullish
+лонг
+bought
+купил
+взял
